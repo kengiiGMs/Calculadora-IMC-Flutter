@@ -6,9 +6,16 @@ Construindo uma calculadora de IMC
 - validação dos inputs de peso e altura
 
 ## Objetivos
-Compreender a estrutura e manipulação do FormTextField
+Compreender a estrutura e manipulação do Formulário (Form) e Inputs (TextFormField)
 
 ### Conceitos aprendidos
+- TextEditingController
+- GlobayKey
+- SingleChildScrollView
+- Form
+- TextFormField
+- ElevatedButton
+- Básico do ThemeData
 
 
 ### Rodar o projeto
