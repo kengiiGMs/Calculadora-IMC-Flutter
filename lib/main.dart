@@ -1,14 +1,17 @@
 import 'package:flutter/material.dart';
+import 'package:calculadora_imc/ui/home_page.dart';
 
 void main() {
-  runApp(MaterialApp(home: Home()));
-}
-
-class Home extends StatelessWidget {
-  const Home({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return Text('Teste');
-  }
+  runApp(
+    MaterialApp(
+      home: HomePage(),
+      debugShowCheckedModeBanner: false,
+      theme: ThemeData(
+        colorScheme: ColorScheme.fromSeed(
+          seedColor: Colors.green,
+          secondary: Colors.green,
+        ),
+      ),
+    ),
+  );
 }
