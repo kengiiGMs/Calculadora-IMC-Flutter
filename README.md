@@ -17,6 +17,18 @@ Compreender a estrutura e manipulação do Formulário (Form) e Inputs (TextForm
 - ElevatedButton
 - Básico do ThemeData
 
-
 ### Rodar o projeto
-<em></em>
+<em>É nessário possuir o sdk do Flutter instalado na sua máquina, além de configurar as váriaveis de ambiente</em>
+
+<b>Comandos:</b>
+
+Instalar dependências do projeto 
+``` 
+flutter pub get 
+```
+
+
+Conectar com o dispositivo e rodar o projeto
+```
+flutter run 
+```
